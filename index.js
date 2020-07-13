@@ -8,6 +8,6 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 
 function deleteFromObjectByKey(object, key) {
-  var p = delete object[key];
-  return p;
+  delete object[key];
+  return object;
 }
